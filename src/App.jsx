@@ -72,7 +72,7 @@ export default function App() {
         style={{ width: imgWidth, left: imgLeft }}
       >
         <motion.img
-          src="/hero.jpg"
+          src={`${import.meta.env.BASE_URL}hero.jpg`}
           alt="Samarth Dhute"
           className="morphing-portrait-img"
           style={{ scale: imgScale, filter: imgBlur }}
